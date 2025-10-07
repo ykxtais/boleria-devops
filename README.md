@@ -144,10 +144,11 @@ az webapp deploy -g rg-boleria -n boleria-api --src-path ./publish.zip --type zi
 ### POST Pedido — `/api/Pedido`
 ```json
 {
-  "boloId": "550e8400-e29b-41d4-a716-446655440000",
+  "boloId": "550e8400-exem-plo4-a716-446655440000",
   "nomeCliente": "Mike",
 }
 ```
+Substitua o **boloId** pelo id retornado em **POST Bolo — `/api/Bolo`**
 
 #
 
